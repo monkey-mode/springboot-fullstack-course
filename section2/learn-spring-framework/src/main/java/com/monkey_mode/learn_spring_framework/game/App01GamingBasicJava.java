@@ -1,7 +1,4 @@
-package com.monkey_mode.learn_spring_framework;
-
-import com.monkey_mode.learn_spring_framework.game.GameRunner;
-import com.monkey_mode.learn_spring_framework.game.PacmanGame;
+package com.monkey_mode.learn_spring_framework.game;
 
 public class App01GamingBasicJava {
 
