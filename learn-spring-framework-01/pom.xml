@@ -48,7 +48,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.monkey_mode.learn_spring_framework.game.App01GamingBasicJava</mainClass>
+					<mainClass>com.monkey_mode.learn_spring_framework.game.App03GamingSpringBeans</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>

@@ -1,6 +1,8 @@
-package com.monkey_mode.learn_spring_framework.game;
+package com.monkey_mode.learn_spring_framework;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.monkey_mode.learn_spring_framework.game.GameRunner;
 
 public class App03GamingSpringBeans {
 
