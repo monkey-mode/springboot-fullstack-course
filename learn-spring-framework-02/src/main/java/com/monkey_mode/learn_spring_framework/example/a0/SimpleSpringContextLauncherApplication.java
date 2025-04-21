@@ -2,7 +2,6 @@ package com.monkey_mode.learn_spring_framework.example.a0;
 
 import java.util.Arrays;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -13,7 +12,6 @@ class YourBusinessClass {
     Dependency1 dependency1;
     Dependency2 dependency2;
 
-    @Autowired
     public YourBusinessClass(Dependency1 dependency1, Dependency2 dependency2) {
         super();
         System.out.println("Constructor injection - YourBusinessClass");
