@@ -2,9 +2,9 @@ package com.monkey_mode.learn_spring_framework.example.c1;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Service;
 
-@Configuration
+@Service
 @ComponentScan
 public class RealWorldSpringContextLauncherApplication {
 
