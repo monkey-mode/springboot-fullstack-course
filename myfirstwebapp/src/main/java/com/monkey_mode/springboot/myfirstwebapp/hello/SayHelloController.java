@@ -12,4 +12,21 @@ public class SayHelloController {
     public String sayHello() {
         return "Hello World";
     }
+
+    @GetMapping("say-hello-html")
+    @ResponseBody
+    public String sayHelloHtml() {
+        StringBuffer sb = new StringBuffer();
+        sb.append("<html>");
+        sb.append("<body>");
+        sb.append("<h1>Hello World</h1>");
+        sb.append("</body>");
+        sb.append("</html>");
+        return sb.toString();
+    }
+
+    @GetMapping("say-hello-jsp")
+    public String sayHelloJsp() {
+        return "sayHello";
+    }
 }
